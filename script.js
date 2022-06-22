@@ -19,5 +19,5 @@ clone.parents.mom = 'Ann';
 
 console.log(person);
 console.log('======================');
-console.log(JSON.stringify(clone));
+// console.log(JSON.stringify(clone));
 console.log(clone);
