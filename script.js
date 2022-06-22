@@ -10,9 +10,15 @@ const person = {
     // },
 };
 
-// const clone = JSON.parse(JSON.stringify(person));
-// clone.parents.mom = 'Ann';
+
 console.log(JSON.stringify(person));
+console.log(JSON.parse(JSON.stringify(person)));
+
+
+// const clone = JSON.parse(JSON.stringify(person));
+
+// clone.parents.mom = 'Ann';
+
 // console.log(person);
 // console.log('======================');
 // console.log(JSON.stringify(clone));
